@@ -47,6 +47,10 @@
                     </li>
 
                     <li class="nav-item">
+                        <a href="#schedule" class="nav-link smoothScroll">Schedules</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="#contact" class="nav-link smoothScroll">Contact</a>
                     </li>
                 </ul>
@@ -198,7 +202,7 @@
 
                                     <div class="class-info">
                                         <h3 class="mb-1">Orders</h3>
-					<!-- <a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="300" data-toggle="modal" data-target="#ordersform">Order Now</a> -->
+					<a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="300" data-toggle="modal" data-target="#ordersform">Order Now</a>
                                         <br><span><strong>Available by</strong> 4:00pm</span>
 
 
@@ -214,7 +218,7 @@
 
                                     <div class="class-info">
                                         <h3 class="mb-1">Inventory Management</h3>
-					<!-- <a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="300" data-toggle="modal" data-target="#inventoryform">Store Details</a> -->
+					<a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="300" data-toggle="modal" data-target="#inventoryform">Store Details</a>
                                         <br><span><strong>Current Inventory</strong> - $12454</span>
 
 
@@ -230,7 +234,7 @@
 
                                     <div class="class-info">
                                         <h3 class="mb-1">Sales</h3>
-					<!-- <a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="300" data-toggle="modal" data-target="#salesform">Sales Details</a> -->
+					<a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="300" data-toggle="modal" data-target="#salesform">Sales Details</a>
                                         <br><span><strong>Current Sales</strong> - $9000</span>
 
 
@@ -246,7 +250,7 @@
 
 
      <!-- SCHEDULE -->
-     <!-- <section class="schedule section" id="schedule">
+     <section class="schedule section" id="schedule">
                <div class="container">
                     <div class="row">
 
@@ -352,7 +356,7 @@
 
                     </div>
                </div>
-     </section> -->
+     </section>
 
 
      <!-- CONTACT -->
@@ -440,14 +444,13 @@
                 <input type="tel" class="form-control" name="cf-phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 
                 <textarea class="form-control" rows="3" name="cf-address" placeholder="Address"></textarea>
-
-                <button type="submit" class="form-control" id="submit-button" name="submit">Submit Button</button>
-
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="signup-agree">
                     <label class="custom-control-label text-small text-muted" for="signup-agree">I agree to the <a href="#">Terms &amp;Conditions</a>
                     </label>
                 </div>
+                <button type="submit" class="form-control" id="submit-button" name="submit">Submit Button</button>
+
             </form>
           </div>
 
@@ -481,11 +484,9 @@
 
                 <button type="submit" class="form-control" id="submit-button" name="submit">Submit Button</button>
 
-                <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="signup-agree">
-                    <label class="custom-control-label text-small text-muted" for="signup-agree">I agree to the <a href="#">Terms &amp;Conditions</a>
-                    </label>
-                </div>
+                <a href="#" class="btn custom-btn mt-3" data-aos="fade-up" data-aos-delay="700" data-toggle="modal" data-target="#prevorders">Previous Orders</a>
+
+
             </form>
           </div>
 
@@ -644,6 +645,127 @@
         </div>
       </div>
     </div>
+
+
+<!--Modal 5 -->
+
+<div class="modal fade" id="prevorders" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <h2 class="modal-title" id="membershipFormLabel">Previous Orders</h2>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+                       <div class="col-lg-12 py-5 col-md-12 col-12">
+                               <table class="table table-bordered table-responsive schedule-table" data-aos="fade-up" data-aos-delay="300">
+
+                                   <thead class="thead-light">
+
+                                       <th>ORDERS</th>
+                                       <th>DATE</th>
+                                       <th>COST</th>
+                                   </thead>
+                                  <tbody>
+                                       <tr>
+                                          <td>
+                                              <strong>Order 1</strong>
+                                              <br><fa>Order 1(Code)</fa>
+                                          </td>
+                                          <td>
+                                              <br><fa>11/12/20</fa>
+                                          </td>
+                                          <td>
+                                              <br><fa>775</fa>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <strong>Order 2</strong>
+                                              <br><fa>Order 2(Code)</fa>
+                                          </td>
+                                          <td>
+                                              <br><fa>12/12/20</fa>
+                                          </td>
+                                          <td>
+                                              <br><fa>700</fa>
+                                          </td>
+                                          </tr>
+                                          <tr>
+
+                                          <td>
+                                              <strong>Order 3</strong>
+                                              <br><fa>Order 3(Code)</fa>
+                                          </td>
+                                          <td>
+                                              <br><fa>9/01/21</fa>
+                                          </td>
+                                          <td>
+                                              <br><fa>800</fa>
+                                          </td>
+                                          </tr>
+                                           <tr>
+
+                                          <td>
+                                              <strong>Order 4</strong>
+                                              <br><fa>Order 4(Code)</fa>
+                                          </td>
+                                           <td>
+
+                                              <br><fa>13/01/21</fa>
+                                          </td>
+                                          <td>
+
+                                              <br><fa>775</fa>
+                                          </td>
+                                          </tr>
+                                          <tr>
+
+                                          <td>
+                                              <strong>Order 5</strong>
+                                              <br><fa>Order 5(Code)</fa>
+                                          </td>
+                                          <td>
+
+                                              <br><fa>12/02/21</fa>
+                                          </td>
+                                          <td>
+
+                                              <br><fa>700</fa>
+                                          </td>
+                                          </tr>
+                                          <tr>
+
+                                          <td>
+                                              <strong>Order 6</strong>
+                                              <br><fa>Order 6(Code)</fa>
+                                          </td>
+                                          <td>
+
+                                              <br><fa>9/03/21</fa>
+                                          </td>
+                                          <td>
+
+                                              <br><fa>800</fa>
+                                          </td>
+                                          </tr>
+
+                                          </tbody>
+                                          </table>
+          </div>
+        </div>
+
+        <div class="modal-footer"></div>
+
+      </div>
+    </div>
+  </div>
      <!-- SCRIPTS -->
      <script src="js/jquery.min.js"></script>
      <script src="js/bootstrap.min.js"></script>
